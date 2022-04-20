@@ -5,11 +5,11 @@ include('opdracht_begin.php');
 TYP HIERONDER JOUW PHPCODE
 ****************************/
 
-$leerling=array('nr' => 123456, 'voornaam' => 'Alan', 'achternaam' => 'Turing');
+$leerling=array('nr' => 152051, 'voornaam' => 'Nynke', 'achternaam' => 'van Wijngaarden', 'geboortejaar' => 2005);
 
 echo "<pre>Leerling:";
 print_r($leerling);
-echo "</pre>";
+echo "</pre>".$leerling["voornaam"]. " werd geboren in ".$leerling['geboortejaar']."";
 
 /****************************
 EINDE VAN JOUW PHPCODE
